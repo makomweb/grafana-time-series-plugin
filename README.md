@@ -7,7 +7,10 @@
 
 ## Start the containers
 
-- `docker-compose up -d`
+~~~bash
+mkdir mysql-data
+docker-compose up -d
+~~~
 
 ## Login to Grafana dashboard
 
