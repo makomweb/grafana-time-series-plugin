@@ -43,6 +43,16 @@ http://localhost:8080
     - user = root
     - password = rootpassword
     - database = my_data
+
+## Add MySQL DB as a Grafana data source
+
+- Name = MySQL
+- Connection
+    - Host = mysql_db_container:3306
+    - Database = my_data
+    - user = root
+    - password = rootpassword
+
 ## Run the Symfony CLI command to create measurements
 
 ~~~bash
